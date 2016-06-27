@@ -1,3 +1,4 @@
 テスト用のテキストファイル。
 
-・text.htmlを追加。
+・test.htmlを追加。
+・test.htmlを変更。
