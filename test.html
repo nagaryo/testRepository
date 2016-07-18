@@ -5,28 +5,8 @@
 	<title>test</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width" />
-	<style>
-		body {
-			background: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=61282cfeed75871385c84c2a44a8e594) no-repeat fixed center center;
-			background-size: cover;
-		}
-		.container {
-			max-width: 1200px;
-			margin: 30px auto;
-			padding: 60px;
-			box-sizing: border-box;
-			background-color: rgba(255,255,255, 0.7);
-		}
-		/*.column {
-			overflow: hidden;
-		}*/
-		.column .box {
-			display: inline-block;
-			width: 50%;
-			vertical-align: top;
-			/*outline: 1px solid #f00;*/
-		}
-	</style>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -55,7 +35,7 @@
 			<div class="box">
 				<h4>Heading4</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<a href="https://ja.wikipedia.org/wiki/Lorem_ipsum">learn more</a>
+				<p><a href="https://ja.wikipedia.org/wiki/Lorem_ipsum">learn more</a></p>
 			</div><!--
 
 			--><div class="box">
@@ -66,9 +46,14 @@
 
 		<h6>Heading6</h6>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<a href="https://ja.wikipedia.org/wiki/Lorem_ipsum">learn more</a>
+		<p><a href="https://ja.wikipedia.org/wiki/Lorem_ipsum">learn more</a></p>
+
+		<div id="openBtn" class="btn">Open</div>
 
 	</div>
+
+
+	<div id="subNav" class="sub"></div>
 
 </body>
 </html>
