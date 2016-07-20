@@ -17,7 +17,6 @@ body {
   display: inline-block;
   width: 50%;
   vertical-align: top;
-  /*outline: 1px solid #f00;*/
 }
 
 .btn {
@@ -59,4 +58,11 @@ body {
 
 .sub.show {
   transform: translateX(0);
+}
+
+@media screen and (max-width: 640px) {
+  .column .box {
+    display: block;
+    width: 100%;
+  }
 }
