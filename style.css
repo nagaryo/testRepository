@@ -1,13 +1,14 @@
 @charset: "UTF-8";
 
 body {
+  margin: 30px;
   background: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=61282cfeed75871385c84c2a44a8e594) no-repeat fixed center center;
   background-size: cover;
 }
 
 .container {
   max-width: 1200px;
-  margin: 30px auto;
+  margin: 0 auto;
   padding: 60px;
   box-sizing: border-box;
   background-color: rgba(255,255,255, 0.7);
